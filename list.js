@@ -112,7 +112,7 @@ if (typeof AUTO_TITLE != 'undefined' && AUTO_TITLE == true) {
   
   function createS3QueryUrl(marker) {
     var s3_rest_url = BUCKET_URL;
-    s3_rest_url += '?delimiter=/';
+    // s3_rest_url += '?delimiter=/';
   
     //
     // Handling paths and prefixes:
